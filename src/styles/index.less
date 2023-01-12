@@ -2,3 +2,16 @@
 
 // 引入字体图标
 @import './icon.less';
+
+// 全局背景色
+.body{
+  background-color: #f5f7f9;
+}
+
+// 设置导航栏样式（全局样式影响所有页面，封装思想）
+.page-nav-bar{
+  background-color: #3296fa !important;
+  .van-nav-bar__title , .van-nav-bar__left .van-icon {
+    color: #fff ;
+  }
+}
